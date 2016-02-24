@@ -3,12 +3,15 @@ color hatter ;
 
 float x;
 float y;
+float sebx=2;
+float seby=4;
+
 
 void setup (){
 size(500,500);
 alma=loadImage ("alma.png");
-x=500;
-y=500;
+x=width/2;
+y=height/2;
 
 }
 
@@ -17,6 +20,6 @@ void draw() {
   
 background(hatter);
 image (alma, x, y, 100, 100);
-x=x-5;
-y=y-5;
+x=x+5;
+y=y+seby;
 }
