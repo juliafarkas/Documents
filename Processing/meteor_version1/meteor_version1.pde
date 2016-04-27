@@ -4,28 +4,28 @@ PImage meteor2;
 
 float x=1200;
 float y=-300;
-float sebx=8;
-float seby=8;
+float sebx=0;
+float seby=0;
 
 float x2=1200;
 float y2=100;
-float sebx2=-10;
-float seby2=5;
+float sebx2=0;
+float seby2=0;
 
 float x3=1200;
 float y3=200;
-float sebx3=-15;
-float seby3=7;
+float sebx3=0;
+float seby3=0;
 
-float x4=0;
-float y4=0;
-float sebx4=7;
-float seby4=6;
+float x4=-200;
+float y4=-200;
+float sebx4=0;
+float seby4=0;
 
-float x5=0;
-float y5=300;
-float sebx5=6;
-float seby5=4;
+float x5=-200;
+float y5=-200;
+float sebx5=0;
+float seby5=0;
 
 
 
@@ -61,4 +61,18 @@ void draw() {
 }
 
 void mouseClicked (){
+  sebx=8;
+  seby=8;
+  
+  sebx2=-10;
+  seby2=5;
+  
+  sebx3=-15;
+  seby3=7;
+
+  sebx4=7;
+  seby4=6;
+  
+  sebx5=6;
+  seby5=4;
 }
