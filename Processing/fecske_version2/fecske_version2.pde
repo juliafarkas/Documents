@@ -26,8 +26,8 @@ void draw() {
   }
 
   if (y>height-70 || y<0) seby= seby*-1;
-
-  //if (sebx>0) scale 
+  //translate (width/2, height/2); ???
+  //if (sebx>0) scale ???
 }
 
 
